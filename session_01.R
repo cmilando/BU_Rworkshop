@@ -5,8 +5,8 @@
 # ============================================================================
 
 ## ----setup, include=FALSE----
-knitr::opts_chunk$set(echo = T)
-knitr::opts_chunk$set(size = 'scriptsize')
+# knitr::opts_chunk$set(echo = T)
+# knitr::opts_chunk$set(size = 'scriptsize')
 
 
 ## ----read-in----------------

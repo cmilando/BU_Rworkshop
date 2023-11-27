@@ -4,9 +4,10 @@
 # Purpose: Session 2 code notes, created automatically with knitr::purl(*.Rmd)
 # ============================================================================
 
+
 ## ----setup, include=FALSE----
-knitr::opts_chunk$set(echo = T)
-knitr::opts_chunk$set(size = 'scriptsize')
+# knitr::opts_chunk$set(echo = T)
+# knitr::opts_chunk$set(size = 'scriptsize')
 
 
 ## ----read-in----------------
@@ -54,7 +55,7 @@ aqs_data <- read.csv('https://raw.githubusercontent.com/cmilando/BU_Rworkshop/ma
 
 
 ## ---------------------------
-aqs_data_wide <- read.csv('wide_fmt.csv')
+aqs_data_wide <- read.csv('https://raw.githubusercontent.com/cmilando/BU_Rworkshop/main/wide_fmt.csv')
 
 
 ## ---------------------------
