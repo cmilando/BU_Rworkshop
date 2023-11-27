@@ -10,8 +10,8 @@ knitr::opts_chunk$set(size = 'scriptsize')
 
 
 ## ----read-in----------------
-aqs_data <- read.csv('aqs_data.csv')
-
+# aqs_data <- read.csv('aqs_data.csv')
+aqs_data <- read.csv('https://raw.githubusercontent.com/cmilando/BU_Rworkshop/main/aqs_data.csv')
 
 ## ----dim--------------------
 dim(aqs_data)
